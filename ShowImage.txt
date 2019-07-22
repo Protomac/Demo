@@ -1,0 +1,13 @@
+img = imread("Harsh.jpeg");
+imshow(img);
+
+Route
+
+  app.route("/demo")
+    .get(async (req, res) => {
+      exec('octave C:/Data/SaveImage.m', (err, stdout, stderr) => {
+
+        console.log(err, stdout, stderr)
+      })
+      res.send('executed')
+    })
