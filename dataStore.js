@@ -7773,7 +7773,6 @@ feedToAPI: (filePath) => {
           }
         ]
       }
-      
       const data2 = {
         "responses": [
           {
@@ -8855,56 +8854,51 @@ feedToAPI: (filePath) => {
       }
       const kills = {
         "responses": [
-          {}
-        ]
-      }
-      const damage = {
-        "responses": [
           {
             "textAnnotations": [
               {
                 "locale": "und",
-                "description": "52\n",
+                "description": "2\n",
                 "boundingPoly": {
                   "vertices": [
                     {
-                      "x": 28,
-                      "y": 5
+                      "x": 29,
+                      "y": 6
                     },
                     {
-                      "x": 40,
-                      "y": 5
+                      "x": 36,
+                      "y": 6
                     },
                     {
-                      "x": 40,
-                      "y": 15
+                      "x": 36,
+                      "y": 21
                     },
                     {
-                      "x": 28,
-                      "y": 15
+                      "x": 29,
+                      "y": 21
                     }
                   ]
                 }
               },
               {
-                "description": "52",
+                "description": "2",
                 "boundingPoly": {
                   "vertices": [
                     {
-                      "x": 28,
-                      "y": 5
+                      "x": 29,
+                      "y": 6
                     },
                     {
-                      "x": 40,
-                      "y": 5
+                      "x": 36,
+                      "y": 6
                     },
                     {
-                      "x": 40,
-                      "y": 15
+                      "x": 36,
+                      "y": 21
                     },
                     {
-                      "x": 28,
-                      "y": 15
+                      "x": 29,
+                      "y": 21
                     }
                   ]
                 }
@@ -8913,27 +8907,27 @@ feedToAPI: (filePath) => {
             "fullTextAnnotation": {
               "pages": [
                 {
-                  "width": 58,
-                  "height": 23,
+                  "width": 52,
+                  "height": 22,
                   "blocks": [
                     {
                       "boundingBox": {
                         "vertices": [
                           {
-                            "x": 28,
-                            "y": 5
+                            "x": 29,
+                            "y": 6
                           },
                           {
-                            "x": 40,
-                            "y": 5
+                            "x": 36,
+                            "y": 6
                           },
                           {
-                            "x": 40,
-                            "y": 15
+                            "x": 36,
+                            "y": 21
                           },
                           {
-                            "x": 28,
-                            "y": 15
+                            "x": 29,
+                            "y": 21
                           }
                         ]
                       },
@@ -8942,20 +8936,20 @@ feedToAPI: (filePath) => {
                           "boundingBox": {
                             "vertices": [
                               {
-                                "x": 28,
-                                "y": 5
+                                "x": 29,
+                                "y": 6
                               },
                               {
-                                "x": 40,
-                                "y": 5
+                                "x": 36,
+                                "y": 6
                               },
                               {
-                                "x": 40,
-                                "y": 15
+                                "x": 36,
+                                "y": 21
                               },
                               {
-                                "x": 28,
-                                "y": 15
+                                "x": 29,
+                                "y": 21
                               }
                             ]
                           },
@@ -8964,47 +8958,24 @@ feedToAPI: (filePath) => {
                               "boundingBox": {
                                 "vertices": [
                                   {
-                                    "x": 28,
-                                    "y": 5
+                                    "x": 29,
+                                    "y": 6
                                   },
                                   {
-                                    "x": 40,
-                                    "y": 5
+                                    "x": 36,
+                                    "y": 6
                                   },
                                   {
-                                    "x": 40,
-                                    "y": 15
+                                    "x": 36,
+                                    "y": 21
                                   },
                                   {
-                                    "x": 28,
-                                    "y": 15
+                                    "x": 29,
+                                    "y": 21
                                   }
                                 ]
                               },
                               "symbols": [
-                                {
-                                  "boundingBox": {
-                                    "vertices": [
-                                      {
-                                        "x": 28,
-                                        "y": 5
-                                      },
-                                      {
-                                        "x": 33,
-                                        "y": 5
-                                      },
-                                      {
-                                        "x": 33,
-                                        "y": 15
-                                      },
-                                      {
-                                        "x": 28,
-                                        "y": 15
-                                      }
-                                    ]
-                                  },
-                                  "text": "5"
-                                },
                                 {
                                   "property": {
                                     "detectedBreak": {
@@ -9014,20 +8985,20 @@ feedToAPI: (filePath) => {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 35,
-                                        "y": 5
+                                        "x": 29,
+                                        "y": 6
                                       },
                                       {
-                                        "x": 40,
-                                        "y": 5
+                                        "x": 36,
+                                        "y": 6
                                       },
                                       {
-                                        "x": 40,
-                                        "y": 15
+                                        "x": 36,
+                                        "y": 21
                                       },
                                       {
-                                        "x": 35,
-                                        "y": 15
+                                        "x": 29,
+                                        "y": 21
                                       }
                                     ]
                                   },
@@ -9043,58 +9014,58 @@ feedToAPI: (filePath) => {
                   ]
                 }
               ],
-              "text": "52\n"
+              "text": "2\n"
             }
           }
         ]
-      }
-      const survived = {
+      }      
+      const damage = {
         "responses": [
           {
             "textAnnotations": [
               {
                 "locale": "und",
-                "description": "Jm\n",
+                "description": "247\n",
                 "boundingPoly": {
                   "vertices": [
                     {
                       "x": 27,
-                      "y": 5
+                      "y": 6
                     },
                     {
-                      "x": 43,
-                      "y": 5
+                      "x": 49,
+                      "y": 6
                     },
                     {
-                      "x": 43,
-                      "y": 15
+                      "x": 49,
+                      "y": 20
                     },
                     {
                       "x": 27,
-                      "y": 15
+                      "y": 20
                     }
                   ]
                 }
               },
               {
-                "description": "Jm",
+                "description": "247",
                 "boundingPoly": {
                   "vertices": [
                     {
                       "x": 27,
-                      "y": 5
+                      "y": 6
                     },
                     {
-                      "x": 43,
-                      "y": 5
+                      "x": 49,
+                      "y": 6
                     },
                     {
-                      "x": 43,
-                      "y": 15
+                      "x": 49,
+                      "y": 20
                     },
                     {
                       "x": 27,
-                      "y": 15
+                      "y": 20
                     }
                   ]
                 }
@@ -9103,27 +9074,27 @@ feedToAPI: (filePath) => {
             "fullTextAnnotation": {
               "pages": [
                 {
-                  "width": 58,
-                  "height": 23,
+                  "width": 65,
+                  "height": 22,
                   "blocks": [
                     {
                       "boundingBox": {
                         "vertices": [
                           {
                             "x": 27,
-                            "y": 5
+                            "y": 6
                           },
                           {
-                            "x": 43,
-                            "y": 5
+                            "x": 49,
+                            "y": 6
                           },
                           {
-                            "x": 43,
-                            "y": 15
+                            "x": 49,
+                            "y": 20
                           },
                           {
                             "x": 27,
-                            "y": 15
+                            "y": 20
                           }
                         ]
                       },
@@ -9133,19 +9104,19 @@ feedToAPI: (filePath) => {
                             "vertices": [
                               {
                                 "x": 27,
-                                "y": 5
+                                "y": 6
                               },
                               {
-                                "x": 43,
-                                "y": 5
+                                "x": 49,
+                                "y": 6
                               },
                               {
-                                "x": 43,
-                                "y": 15
+                                "x": 49,
+                                "y": 20
                               },
                               {
                                 "x": 27,
-                                "y": 15
+                                "y": 20
                               }
                             ]
                           },
@@ -9155,19 +9126,19 @@ feedToAPI: (filePath) => {
                                 "vertices": [
                                   {
                                     "x": 27,
-                                    "y": 5
+                                    "y": 6
                                   },
                                   {
-                                    "x": 43,
-                                    "y": 5
+                                    "x": 49,
+                                    "y": 6
                                   },
                                   {
-                                    "x": 43,
-                                    "y": 15
+                                    "x": 49,
+                                    "y": 20
                                   },
                                   {
                                     "x": 27,
-                                    "y": 15
+                                    "y": 20
                                   }
                                 ]
                               },
@@ -9177,19 +9148,255 @@ feedToAPI: (filePath) => {
                                     "vertices": [
                                       {
                                         "x": 27,
-                                        "y": 5
+                                        "y": 6
                                       },
                                       {
-                                        "x": 28,
-                                        "y": 5
+                                        "x": 33,
+                                        "y": 6
                                       },
                                       {
-                                        "x": 28,
-                                        "y": 15
+                                        "x": 33,
+                                        "y": 20
                                       },
                                       {
                                         "x": 27,
-                                        "y": 15
+                                        "y": 20
+                                      }
+                                    ]
+                                  },
+                                  "text": "2"
+                                },
+                                {
+                                  "boundingBox": {
+                                    "vertices": [
+                                      {
+                                        "x": 35,
+                                        "y": 6
+                                      },
+                                      {
+                                        "x": 41,
+                                        "y": 6
+                                      },
+                                      {
+                                        "x": 41,
+                                        "y": 20
+                                      },
+                                      {
+                                        "x": 35,
+                                        "y": 20
+                                      }
+                                    ]
+                                  },
+                                  "text": "4"
+                                },
+                                {
+                                  "property": {
+                                    "detectedBreak": {
+                                      "type": "EOL_SURE_SPACE"
+                                    }
+                                  },
+                                  "boundingBox": {
+                                    "vertices": [
+                                      {
+                                        "x": 43,
+                                        "y": 6
+                                      },
+                                      {
+                                        "x": 49,
+                                        "y": 6
+                                      },
+                                      {
+                                        "x": 49,
+                                        "y": 20
+                                      },
+                                      {
+                                        "x": 43,
+                                        "y": 20
+                                      }
+                                    ]
+                                  },
+                                  "text": "7"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "blockType": "TEXT"
+                    }
+                  ]
+                }
+              ],
+              "text": "247\n"
+            }
+          }
+        ]
+      }      
+      const survived = {
+        "responses": [
+          {
+            "textAnnotations": [
+              {
+                "locale": "und",
+                "description": "5Jm\n",
+                "boundingPoly": {
+                  "vertices": [
+                    {
+                      "x": 35,
+                      "y": 6
+                    },
+                    {
+                      "x": 61,
+                      "y": 6
+                    },
+                    {
+                      "x": 61,
+                      "y": 20
+                    },
+                    {
+                      "x": 35,
+                      "y": 20
+                    }
+                  ]
+                }
+              },
+              {
+                "description": "5Jm",
+                "boundingPoly": {
+                  "vertices": [
+                    {
+                      "x": 35,
+                      "y": 6
+                    },
+                    {
+                      "x": 61,
+                      "y": 6
+                    },
+                    {
+                      "x": 61,
+                      "y": 20
+                    },
+                    {
+                      "x": 35,
+                      "y": 20
+                    }
+                  ]
+                }
+              }
+            ],
+            "fullTextAnnotation": {
+              "pages": [
+                {
+                  "width": 78,
+                  "height": 22,
+                  "blocks": [
+                    {
+                      "boundingBox": {
+                        "vertices": [
+                          {
+                            "x": 35,
+                            "y": 6
+                          },
+                          {
+                            "x": 61,
+                            "y": 6
+                          },
+                          {
+                            "x": 61,
+                            "y": 20
+                          },
+                          {
+                            "x": 35,
+                            "y": 20
+                          }
+                        ]
+                      },
+                      "paragraphs": [
+                        {
+                          "boundingBox": {
+                            "vertices": [
+                              {
+                                "x": 35,
+                                "y": 6
+                              },
+                              {
+                                "x": 61,
+                                "y": 6
+                              },
+                              {
+                                "x": 61,
+                                "y": 20
+                              },
+                              {
+                                "x": 35,
+                                "y": 20
+                              }
+                            ]
+                          },
+                          "words": [
+                            {
+                              "boundingBox": {
+                                "vertices": [
+                                  {
+                                    "x": 35,
+                                    "y": 6
+                                  },
+                                  {
+                                    "x": 61,
+                                    "y": 6
+                                  },
+                                  {
+                                    "x": 61,
+                                    "y": 20
+                                  },
+                                  {
+                                    "x": 35,
+                                    "y": 20
+                                  }
+                                ]
+                              },
+                              "symbols": [
+                                {
+                                  "boundingBox": {
+                                    "vertices": [
+                                      {
+                                        "x": 35,
+                                        "y": 6
+                                      },
+                                      {
+                                        "x": 41,
+                                        "y": 6
+                                      },
+                                      {
+                                        "x": 41,
+                                        "y": 20
+                                      },
+                                      {
+                                        "x": 35,
+                                        "y": 20
+                                      }
+                                    ]
+                                  },
+                                  "text": "5"
+                                },
+                                {
+                                  "boundingBox": {
+                                    "vertices": [
+                                      {
+                                        "x": 44,
+                                        "y": 6
+                                      },
+                                      {
+                                        "x": 48,
+                                        "y": 6
+                                      },
+                                      {
+                                        "x": 48,
+                                        "y": 20
+                                      },
+                                      {
+                                        "x": 44,
+                                        "y": 20
                                       }
                                     ]
                                   },
@@ -9204,20 +9411,20 @@ feedToAPI: (filePath) => {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 31,
-                                        "y": 5
+                                        "x": 51,
+                                        "y": 11
                                       },
                                       {
-                                        "x": 43,
-                                        "y": 5
+                                        "x": 61,
+                                        "y": 11
                                       },
                                       {
-                                        "x": 43,
-                                        "y": 15
+                                        "x": 61,
+                                        "y": 20
                                       },
                                       {
-                                        "x": 31,
-                                        "y": 15
+                                        "x": 51,
+                                        "y": 20
                                       }
                                     ]
                                   },
@@ -9233,58 +9440,58 @@ feedToAPI: (filePath) => {
                   ]
                 }
               ],
-              "text": "Jm\n"
+              "text": "5Jm\n"
             }
           }
         ]
-      }
+      }      
       const rating = {
         "responses": [
           {
             "textAnnotations": [
               {
                 "locale": "und",
-                "description": "16.8\n",
+                "description": "39.5\n",
                 "boundingPoly": {
                   "vertices": [
                     {
-                      "x": 31,
-                      "y": 5
+                      "x": 33,
+                      "y": 6
                     },
                     {
-                      "x": 48,
-                      "y": 5
+                      "x": 60,
+                      "y": 6
                     },
                     {
-                      "x": 48,
-                      "y": 15
+                      "x": 60,
+                      "y": 20
                     },
                     {
-                      "x": 31,
-                      "y": 15
+                      "x": 33,
+                      "y": 20
                     }
                   ]
                 }
               },
               {
-                "description": "16.8",
+                "description": "39.5",
                 "boundingPoly": {
                   "vertices": [
                     {
-                      "x": 31,
-                      "y": 5
+                      "x": 33,
+                      "y": 6
                     },
                     {
-                      "x": 48,
-                      "y": 5
+                      "x": 60,
+                      "y": 6
                     },
                     {
-                      "x": 48,
-                      "y": 15
+                      "x": 60,
+                      "y": 20
                     },
                     {
-                      "x": 31,
-                      "y": 15
+                      "x": 33,
+                      "y": 20
                     }
                   ]
                 }
@@ -9293,27 +9500,27 @@ feedToAPI: (filePath) => {
             "fullTextAnnotation": {
               "pages": [
                 {
-                  "width": 58,
-                  "height": 23,
+                  "width": 65,
+                  "height": 22,
                   "blocks": [
                     {
                       "boundingBox": {
                         "vertices": [
                           {
-                            "x": 31,
-                            "y": 5
+                            "x": 33,
+                            "y": 6
                           },
                           {
-                            "x": 48,
-                            "y": 5
+                            "x": 60,
+                            "y": 6
                           },
                           {
-                            "x": 48,
-                            "y": 15
+                            "x": 60,
+                            "y": 20
                           },
                           {
-                            "x": 31,
-                            "y": 15
+                            "x": 33,
+                            "y": 20
                           }
                         ]
                       },
@@ -9322,20 +9529,20 @@ feedToAPI: (filePath) => {
                           "boundingBox": {
                             "vertices": [
                               {
-                                "x": 31,
-                                "y": 5
+                                "x": 33,
+                                "y": 6
                               },
                               {
-                                "x": 48,
-                                "y": 5
+                                "x": 60,
+                                "y": 6
                               },
                               {
-                                "x": 48,
-                                "y": 15
+                                "x": 60,
+                                "y": 20
                               },
                               {
-                                "x": 31,
-                                "y": 15
+                                "x": 33,
+                                "y": 20
                               }
                             ]
                           },
@@ -9344,20 +9551,20 @@ feedToAPI: (filePath) => {
                               "boundingBox": {
                                 "vertices": [
                                   {
-                                    "x": 31,
-                                    "y": 5
+                                    "x": 33,
+                                    "y": 6
                                   },
                                   {
-                                    "x": 48,
-                                    "y": 5
+                                    "x": 60,
+                                    "y": 6
                                   },
                                   {
-                                    "x": 48,
-                                    "y": 15
+                                    "x": 60,
+                                    "y": 20
                                   },
                                   {
-                                    "x": 31,
-                                    "y": 15
+                                    "x": 33,
+                                    "y": 20
                                   }
                                 ]
                               },
@@ -9366,66 +9573,66 @@ feedToAPI: (filePath) => {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 31,
-                                        "y": 5
+                                        "x": 33,
+                                        "y": 6
                                       },
                                       {
-                                        "x": 32,
-                                        "y": 5
+                                        "x": 39,
+                                        "y": 6
                                       },
                                       {
-                                        "x": 32,
-                                        "y": 15
+                                        "x": 39,
+                                        "y": 20
                                       },
                                       {
-                                        "x": 31,
-                                        "y": 15
+                                        "x": 33,
+                                        "y": 20
                                       }
                                     ]
                                   },
-                                  "text": "1"
+                                  "text": "3"
                                 },
                                 {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 34,
-                                        "y": 5
+                                        "x": 42,
+                                        "y": 6
                                       },
                                       {
-                                        "x": 39,
-                                        "y": 5
+                                        "x": 48,
+                                        "y": 6
                                       },
                                       {
-                                        "x": 39,
-                                        "y": 15
+                                        "x": 48,
+                                        "y": 20
                                       },
                                       {
-                                        "x": 34,
-                                        "y": 15
+                                        "x": 42,
+                                        "y": 20
                                       }
                                     ]
                                   },
-                                  "text": "6"
+                                  "text": "9"
                                 },
                                 {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 41,
-                                        "y": 15
+                                        "x": 51,
+                                        "y": 19
                                       },
                                       {
-                                        "x": 42,
-                                        "y": 15
+                                        "x": 52,
+                                        "y": 19
                                       },
                                       {
-                                        "x": 42,
-                                        "y": 15
+                                        "x": 52,
+                                        "y": 20
                                       },
                                       {
-                                        "x": 41,
-                                        "y": 15
+                                        "x": 51,
+                                        "y": 20
                                       }
                                     ]
                                   },
@@ -9440,24 +9647,24 @@ feedToAPI: (filePath) => {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 44,
-                                        "y": 5
+                                        "x": 54,
+                                        "y": 6
                                       },
                                       {
-                                        "x": 48,
-                                        "y": 5
+                                        "x": 60,
+                                        "y": 6
                                       },
                                       {
-                                        "x": 48,
-                                        "y": 15
+                                        "x": 60,
+                                        "y": 20
                                       },
                                       {
-                                        "x": 44,
-                                        "y": 15
+                                        "x": 54,
+                                        "y": 20
                                       }
                                     ]
                                   },
-                                  "text": "8"
+                                  "text": "5"
                                 }
                               ]
                             }
@@ -9469,11 +9676,11 @@ feedToAPI: (filePath) => {
                   ]
                 }
               ],
-              "text": "16.8\n"
+              "text": "39.5\n"
             }
           }
         ]
-      }
+      }      
       const mode = {
         "responses": [
           {

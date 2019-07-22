@@ -3602,56 +3602,51 @@ const processImg = {
       }
       const kills = {
         "responses": [
-          {}
-        ]
-      }
-      const damage = {
-        "responses": [
           {
             "textAnnotations": [
               {
                 "locale": "und",
-                "description": "52\n",
+                "description": "2\n",
                 "boundingPoly": {
                   "vertices": [
                     {
-                      "x": 28,
-                      "y": 5
+                      "x": 29,
+                      "y": 6
                     },
                     {
-                      "x": 40,
-                      "y": 5
+                      "x": 36,
+                      "y": 6
                     },
                     {
-                      "x": 40,
-                      "y": 15
+                      "x": 36,
+                      "y": 21
                     },
                     {
-                      "x": 28,
-                      "y": 15
+                      "x": 29,
+                      "y": 21
                     }
                   ]
                 }
               },
               {
-                "description": "52",
+                "description": "2",
                 "boundingPoly": {
                   "vertices": [
                     {
-                      "x": 28,
-                      "y": 5
+                      "x": 29,
+                      "y": 6
                     },
                     {
-                      "x": 40,
-                      "y": 5
+                      "x": 36,
+                      "y": 6
                     },
                     {
-                      "x": 40,
-                      "y": 15
+                      "x": 36,
+                      "y": 21
                     },
                     {
-                      "x": 28,
-                      "y": 15
+                      "x": 29,
+                      "y": 21
                     }
                   ]
                 }
@@ -3660,27 +3655,27 @@ const processImg = {
             "fullTextAnnotation": {
               "pages": [
                 {
-                  "width": 58,
-                  "height": 23,
+                  "width": 52,
+                  "height": 22,
                   "blocks": [
                     {
                       "boundingBox": {
                         "vertices": [
                           {
-                            "x": 28,
-                            "y": 5
+                            "x": 29,
+                            "y": 6
                           },
                           {
-                            "x": 40,
-                            "y": 5
+                            "x": 36,
+                            "y": 6
                           },
                           {
-                            "x": 40,
-                            "y": 15
+                            "x": 36,
+                            "y": 21
                           },
                           {
-                            "x": 28,
-                            "y": 15
+                            "x": 29,
+                            "y": 21
                           }
                         ]
                       },
@@ -3689,20 +3684,20 @@ const processImg = {
                           "boundingBox": {
                             "vertices": [
                               {
-                                "x": 28,
-                                "y": 5
+                                "x": 29,
+                                "y": 6
                               },
                               {
-                                "x": 40,
-                                "y": 5
+                                "x": 36,
+                                "y": 6
                               },
                               {
-                                "x": 40,
-                                "y": 15
+                                "x": 36,
+                                "y": 21
                               },
                               {
-                                "x": 28,
-                                "y": 15
+                                "x": 29,
+                                "y": 21
                               }
                             ]
                           },
@@ -3711,47 +3706,24 @@ const processImg = {
                               "boundingBox": {
                                 "vertices": [
                                   {
-                                    "x": 28,
-                                    "y": 5
+                                    "x": 29,
+                                    "y": 6
                                   },
                                   {
-                                    "x": 40,
-                                    "y": 5
+                                    "x": 36,
+                                    "y": 6
                                   },
                                   {
-                                    "x": 40,
-                                    "y": 15
+                                    "x": 36,
+                                    "y": 21
                                   },
                                   {
-                                    "x": 28,
-                                    "y": 15
+                                    "x": 29,
+                                    "y": 21
                                   }
                                 ]
                               },
                               "symbols": [
-                                {
-                                  "boundingBox": {
-                                    "vertices": [
-                                      {
-                                        "x": 28,
-                                        "y": 5
-                                      },
-                                      {
-                                        "x": 33,
-                                        "y": 5
-                                      },
-                                      {
-                                        "x": 33,
-                                        "y": 15
-                                      },
-                                      {
-                                        "x": 28,
-                                        "y": 15
-                                      }
-                                    ]
-                                  },
-                                  "text": "5"
-                                },
                                 {
                                   "property": {
                                     "detectedBreak": {
@@ -3761,20 +3733,20 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 35,
-                                        "y": 5
+                                        "x": 29,
+                                        "y": 6
                                       },
                                       {
-                                        "x": 40,
-                                        "y": 5
+                                        "x": 36,
+                                        "y": 6
                                       },
                                       {
-                                        "x": 40,
-                                        "y": 15
+                                        "x": 36,
+                                        "y": 21
                                       },
                                       {
-                                        "x": 35,
-                                        "y": 15
+                                        "x": 29,
+                                        "y": 21
                                       }
                                     ]
                                   },
@@ -3790,7 +3762,220 @@ const processImg = {
                   ]
                 }
               ],
-              "text": "52\n"
+              "text": "2\n"
+            }
+          }
+        ]
+      }      
+      const damage = {
+        "responses": [
+          {
+            "textAnnotations": [
+              {
+                "locale": "und",
+                "description": "247\n",
+                "boundingPoly": {
+                  "vertices": [
+                    {
+                      "x": 27,
+                      "y": 6
+                    },
+                    {
+                      "x": 49,
+                      "y": 6
+                    },
+                    {
+                      "x": 49,
+                      "y": 20
+                    },
+                    {
+                      "x": 27,
+                      "y": 20
+                    }
+                  ]
+                }
+              },
+              {
+                "description": "247",
+                "boundingPoly": {
+                  "vertices": [
+                    {
+                      "x": 27,
+                      "y": 6
+                    },
+                    {
+                      "x": 49,
+                      "y": 6
+                    },
+                    {
+                      "x": 49,
+                      "y": 20
+                    },
+                    {
+                      "x": 27,
+                      "y": 20
+                    }
+                  ]
+                }
+              }
+            ],
+            "fullTextAnnotation": {
+              "pages": [
+                {
+                  "width": 65,
+                  "height": 22,
+                  "blocks": [
+                    {
+                      "boundingBox": {
+                        "vertices": [
+                          {
+                            "x": 27,
+                            "y": 6
+                          },
+                          {
+                            "x": 49,
+                            "y": 6
+                          },
+                          {
+                            "x": 49,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          }
+                        ]
+                      },
+                      "paragraphs": [
+                        {
+                          "boundingBox": {
+                            "vertices": [
+                              {
+                                "x": 27,
+                                "y": 6
+                              },
+                              {
+                                "x": 49,
+                                "y": 6
+                              },
+                              {
+                                "x": 49,
+                                "y": 20
+                              },
+                              {
+                                "x": 27,
+                                "y": 20
+                              }
+                            ]
+                          },
+                          "words": [
+                            {
+                              "boundingBox": {
+                                "vertices": [
+                                  {
+                                    "x": 27,
+                                    "y": 6
+                                  },
+                                  {
+                                    "x": 49,
+                                    "y": 6
+                                  },
+                                  {
+                                    "x": 49,
+                                    "y": 20
+                                  },
+                                  {
+                                    "x": 27,
+                                    "y": 20
+                                  }
+                                ]
+                              },
+                              "symbols": [
+                                {
+                                  "boundingBox": {
+                                    "vertices": [
+                                      {
+                                        "x": 27,
+                                        "y": 6
+                                      },
+                                      {
+                                        "x": 33,
+                                        "y": 6
+                                      },
+                                      {
+                                        "x": 33,
+                                        "y": 20
+                                      },
+                                      {
+                                        "x": 27,
+                                        "y": 20
+                                      }
+                                    ]
+                                  },
+                                  "text": "2"
+                                },
+                                {
+                                  "boundingBox": {
+                                    "vertices": [
+                                      {
+                                        "x": 35,
+                                        "y": 6
+                                      },
+                                      {
+                                        "x": 41,
+                                        "y": 6
+                                      },
+                                      {
+                                        "x": 41,
+                                        "y": 20
+                                      },
+                                      {
+                                        "x": 35,
+                                        "y": 20
+                                      }
+                                    ]
+                                  },
+                                  "text": "4"
+                                },
+                                {
+                                  "property": {
+                                    "detectedBreak": {
+                                      "type": "EOL_SURE_SPACE"
+                                    }
+                                  },
+                                  "boundingBox": {
+                                    "vertices": [
+                                      {
+                                        "x": 43,
+                                        "y": 6
+                                      },
+                                      {
+                                        "x": 49,
+                                        "y": 6
+                                      },
+                                      {
+                                        "x": 49,
+                                        "y": 20
+                                      },
+                                      {
+                                        "x": 43,
+                                        "y": 20
+                                      }
+                                    ]
+                                  },
+                                  "text": "7"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "blockType": "TEXT"
+                    }
+                  ]
+                }
+              ],
+              "text": "247\n"
             }
           }
         ]
@@ -3801,47 +3986,47 @@ const processImg = {
             "textAnnotations": [
               {
                 "locale": "und",
-                "description": "Jm\n",
+                "description": "5Jm\n",
                 "boundingPoly": {
                   "vertices": [
                     {
-                      "x": 27,
-                      "y": 5
+                      "x": 35,
+                      "y": 6
                     },
                     {
-                      "x": 43,
-                      "y": 5
+                      "x": 61,
+                      "y": 6
                     },
                     {
-                      "x": 43,
-                      "y": 15
+                      "x": 61,
+                      "y": 20
                     },
                     {
-                      "x": 27,
-                      "y": 15
+                      "x": 35,
+                      "y": 20
                     }
                   ]
                 }
               },
               {
-                "description": "Jm",
+                "description": "5Jm",
                 "boundingPoly": {
                   "vertices": [
                     {
-                      "x": 27,
-                      "y": 5
+                      "x": 35,
+                      "y": 6
                     },
                     {
-                      "x": 43,
-                      "y": 5
+                      "x": 61,
+                      "y": 6
                     },
                     {
-                      "x": 43,
-                      "y": 15
+                      "x": 61,
+                      "y": 20
                     },
                     {
-                      "x": 27,
-                      "y": 15
+                      "x": 35,
+                      "y": 20
                     }
                   ]
                 }
@@ -3850,27 +4035,27 @@ const processImg = {
             "fullTextAnnotation": {
               "pages": [
                 {
-                  "width": 58,
-                  "height": 23,
+                  "width": 78,
+                  "height": 22,
                   "blocks": [
                     {
                       "boundingBox": {
                         "vertices": [
                           {
-                            "x": 27,
-                            "y": 5
+                            "x": 35,
+                            "y": 6
                           },
                           {
-                            "x": 43,
-                            "y": 5
+                            "x": 61,
+                            "y": 6
                           },
                           {
-                            "x": 43,
-                            "y": 15
+                            "x": 61,
+                            "y": 20
                           },
                           {
-                            "x": 27,
-                            "y": 15
+                            "x": 35,
+                            "y": 20
                           }
                         ]
                       },
@@ -3879,20 +4064,20 @@ const processImg = {
                           "boundingBox": {
                             "vertices": [
                               {
-                                "x": 27,
-                                "y": 5
+                                "x": 35,
+                                "y": 6
                               },
                               {
-                                "x": 43,
-                                "y": 5
+                                "x": 61,
+                                "y": 6
                               },
                               {
-                                "x": 43,
-                                "y": 15
+                                "x": 61,
+                                "y": 20
                               },
                               {
-                                "x": 27,
-                                "y": 15
+                                "x": 35,
+                                "y": 20
                               }
                             ]
                           },
@@ -3901,20 +4086,20 @@ const processImg = {
                               "boundingBox": {
                                 "vertices": [
                                   {
-                                    "x": 27,
-                                    "y": 5
+                                    "x": 35,
+                                    "y": 6
                                   },
                                   {
-                                    "x": 43,
-                                    "y": 5
+                                    "x": 61,
+                                    "y": 6
                                   },
                                   {
-                                    "x": 43,
-                                    "y": 15
+                                    "x": 61,
+                                    "y": 20
                                   },
                                   {
-                                    "x": 27,
-                                    "y": 15
+                                    "x": 35,
+                                    "y": 20
                                   }
                                 ]
                               },
@@ -3923,20 +4108,43 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 27,
-                                        "y": 5
+                                        "x": 35,
+                                        "y": 6
                                       },
                                       {
-                                        "x": 28,
-                                        "y": 5
+                                        "x": 41,
+                                        "y": 6
                                       },
                                       {
-                                        "x": 28,
-                                        "y": 15
+                                        "x": 41,
+                                        "y": 20
                                       },
                                       {
-                                        "x": 27,
-                                        "y": 15
+                                        "x": 35,
+                                        "y": 20
+                                      }
+                                    ]
+                                  },
+                                  "text": "5"
+                                },
+                                {
+                                  "boundingBox": {
+                                    "vertices": [
+                                      {
+                                        "x": 44,
+                                        "y": 6
+                                      },
+                                      {
+                                        "x": 48,
+                                        "y": 6
+                                      },
+                                      {
+                                        "x": 48,
+                                        "y": 20
+                                      },
+                                      {
+                                        "x": 44,
+                                        "y": 20
                                       }
                                     ]
                                   },
@@ -3951,20 +4159,20 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 31,
-                                        "y": 5
+                                        "x": 51,
+                                        "y": 11
                                       },
                                       {
-                                        "x": 43,
-                                        "y": 5
+                                        "x": 61,
+                                        "y": 11
                                       },
                                       {
-                                        "x": 43,
-                                        "y": 15
+                                        "x": 61,
+                                        "y": 20
                                       },
                                       {
-                                        "x": 31,
-                                        "y": 15
+                                        "x": 51,
+                                        "y": 20
                                       }
                                     ]
                                   },
@@ -3980,58 +4188,58 @@ const processImg = {
                   ]
                 }
               ],
-              "text": "Jm\n"
+              "text": "5Jm\n"
             }
           }
         ]
-      }
+      }      
       const rating = {
         "responses": [
           {
             "textAnnotations": [
               {
                 "locale": "und",
-                "description": "16.8\n",
+                "description": "39.5\n",
                 "boundingPoly": {
                   "vertices": [
                     {
-                      "x": 31,
-                      "y": 5
+                      "x": 33,
+                      "y": 6
                     },
                     {
-                      "x": 48,
-                      "y": 5
+                      "x": 60,
+                      "y": 6
                     },
                     {
-                      "x": 48,
-                      "y": 15
+                      "x": 60,
+                      "y": 20
                     },
                     {
-                      "x": 31,
-                      "y": 15
+                      "x": 33,
+                      "y": 20
                     }
                   ]
                 }
               },
               {
-                "description": "16.8",
+                "description": "39.5",
                 "boundingPoly": {
                   "vertices": [
                     {
-                      "x": 31,
-                      "y": 5
+                      "x": 33,
+                      "y": 6
                     },
                     {
-                      "x": 48,
-                      "y": 5
+                      "x": 60,
+                      "y": 6
                     },
                     {
-                      "x": 48,
-                      "y": 15
+                      "x": 60,
+                      "y": 20
                     },
                     {
-                      "x": 31,
-                      "y": 15
+                      "x": 33,
+                      "y": 20
                     }
                   ]
                 }
@@ -4040,27 +4248,27 @@ const processImg = {
             "fullTextAnnotation": {
               "pages": [
                 {
-                  "width": 58,
-                  "height": 23,
+                  "width": 65,
+                  "height": 22,
                   "blocks": [
                     {
                       "boundingBox": {
                         "vertices": [
                           {
-                            "x": 31,
-                            "y": 5
+                            "x": 33,
+                            "y": 6
                           },
                           {
-                            "x": 48,
-                            "y": 5
+                            "x": 60,
+                            "y": 6
                           },
                           {
-                            "x": 48,
-                            "y": 15
+                            "x": 60,
+                            "y": 20
                           },
                           {
-                            "x": 31,
-                            "y": 15
+                            "x": 33,
+                            "y": 20
                           }
                         ]
                       },
@@ -4069,20 +4277,20 @@ const processImg = {
                           "boundingBox": {
                             "vertices": [
                               {
-                                "x": 31,
-                                "y": 5
+                                "x": 33,
+                                "y": 6
                               },
                               {
-                                "x": 48,
-                                "y": 5
+                                "x": 60,
+                                "y": 6
                               },
                               {
-                                "x": 48,
-                                "y": 15
+                                "x": 60,
+                                "y": 20
                               },
                               {
-                                "x": 31,
-                                "y": 15
+                                "x": 33,
+                                "y": 20
                               }
                             ]
                           },
@@ -4091,20 +4299,20 @@ const processImg = {
                               "boundingBox": {
                                 "vertices": [
                                   {
-                                    "x": 31,
-                                    "y": 5
+                                    "x": 33,
+                                    "y": 6
                                   },
                                   {
-                                    "x": 48,
-                                    "y": 5
+                                    "x": 60,
+                                    "y": 6
                                   },
                                   {
-                                    "x": 48,
-                                    "y": 15
+                                    "x": 60,
+                                    "y": 20
                                   },
                                   {
-                                    "x": 31,
-                                    "y": 15
+                                    "x": 33,
+                                    "y": 20
                                   }
                                 ]
                               },
@@ -4113,66 +4321,66 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 31,
-                                        "y": 5
+                                        "x": 33,
+                                        "y": 6
                                       },
                                       {
-                                        "x": 32,
-                                        "y": 5
+                                        "x": 39,
+                                        "y": 6
                                       },
                                       {
-                                        "x": 32,
-                                        "y": 15
+                                        "x": 39,
+                                        "y": 20
                                       },
                                       {
-                                        "x": 31,
-                                        "y": 15
+                                        "x": 33,
+                                        "y": 20
                                       }
                                     ]
                                   },
-                                  "text": "1"
+                                  "text": "3"
                                 },
                                 {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 34,
-                                        "y": 5
+                                        "x": 42,
+                                        "y": 6
                                       },
                                       {
-                                        "x": 39,
-                                        "y": 5
+                                        "x": 48,
+                                        "y": 6
                                       },
                                       {
-                                        "x": 39,
-                                        "y": 15
+                                        "x": 48,
+                                        "y": 20
                                       },
                                       {
-                                        "x": 34,
-                                        "y": 15
+                                        "x": 42,
+                                        "y": 20
                                       }
                                     ]
                                   },
-                                  "text": "6"
+                                  "text": "9"
                                 },
                                 {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 41,
-                                        "y": 15
+                                        "x": 51,
+                                        "y": 19
                                       },
                                       {
-                                        "x": 42,
-                                        "y": 15
+                                        "x": 52,
+                                        "y": 19
                                       },
                                       {
-                                        "x": 42,
-                                        "y": 15
+                                        "x": 52,
+                                        "y": 20
                                       },
                                       {
-                                        "x": 41,
-                                        "y": 15
+                                        "x": 51,
+                                        "y": 20
                                       }
                                     ]
                                   },
@@ -4187,24 +4395,24 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 44,
-                                        "y": 5
+                                        "x": 54,
+                                        "y": 6
                                       },
                                       {
-                                        "x": 48,
-                                        "y": 5
+                                        "x": 60,
+                                        "y": 6
                                       },
                                       {
-                                        "x": 48,
-                                        "y": 15
+                                        "x": 60,
+                                        "y": 20
                                       },
                                       {
-                                        "x": 44,
-                                        "y": 15
+                                        "x": 54,
+                                        "y": 20
                                       }
                                     ]
                                   },
-                                  "text": "8"
+                                  "text": "5"
                                 }
                               ]
                             }
@@ -4216,35 +4424,33 @@ const processImg = {
                   ]
                 }
               ],
-              "text": "16.8\n"
+              "text": "39.5\n"
             }
           }
         ]
-      }
+      }      
       const mode = {
         "responses": [
           {
             "textAnnotations": [
               {
                 "locale": "en",
-                "description": "Classic (TPP) Squad-Erange!\n",
+                "description": "Classic (TPP) -Squad-Erangel\n",
                 "boundingPoly": {
                   "vertices": [
                     {
-                      "x": 36,
-                      "y": 6
+                      "y": 9
                     },
                     {
-                      "x": 228,
-                      "y": 6
+                      "x": 252,
+                      "y": 9
                     },
                     {
-                      "x": 228,
-                      "y": 25
+                      "x": 252,
+                      "y": 33
                     },
                     {
-                      "x": 36,
-                      "y": 25
+                      "y": 33
                     }
                   ]
                 }
@@ -4254,20 +4460,18 @@ const processImg = {
                 "boundingPoly": {
                   "vertices": [
                     {
-                      "x": 36,
-                      "y": 6
+                      "y": 9
                     },
                     {
-                      "x": 81,
-                      "y": 6
+                      "x": 57,
+                      "y": 9
                     },
                     {
-                      "x": 81,
-                      "y": 22
+                      "x": 57,
+                      "y": 30
                     },
                     {
-                      "x": 36,
-                      "y": 22
+                      "y": 30
                     }
                   ]
                 }
@@ -4277,43 +4481,43 @@ const processImg = {
                 "boundingPoly": {
                   "vertices": [
                     {
-                      "x": 88,
-                      "y": 10
+                      "x": 65,
+                      "y": 12
                     },
                     {
-                      "x": 117,
-                      "y": 10
+                      "x": 105,
+                      "y": 12
                     },
                     {
-                      "x": 117,
-                      "y": 23
+                      "x": 105,
+                      "y": 31
                     },
                     {
-                      "x": 88,
-                      "y": 23
+                      "x": 65,
+                      "y": 31
                     }
                   ]
                 }
               },
               {
-                "description": "Squad-Erange!",
+                "description": "-Squad-Erangel",
                 "boundingPoly": {
                   "vertices": [
                     {
-                      "x": 131,
-                      "y": 9
+                      "x": 123,
+                      "y": 13
                     },
                     {
-                      "x": 228,
-                      "y": 9
+                      "x": 252,
+                      "y": 13
                     },
                     {
-                      "x": 228,
-                      "y": 25
+                      "x": 252,
+                      "y": 33
                     },
                     {
-                      "x": 131,
-                      "y": 25
+                      "x": 123,
+                      "y": 33
                     }
                   ]
                 }
@@ -4330,8 +4534,8 @@ const processImg = {
                       }
                     ]
                   },
-                  "width": 240,
-                  "height": 34,
+                  "width": 270,
+                  "height": 44,
                   "blocks": [
                     {
                       "property": {
@@ -4345,20 +4549,18 @@ const processImg = {
                       "boundingBox": {
                         "vertices": [
                           {
-                            "x": 36,
-                            "y": 6
+                            "y": 9
                           },
                           {
-                            "x": 228,
-                            "y": 7
+                            "x": 252,
+                            "y": 9
                           },
                           {
-                            "x": 228,
-                            "y": 25
+                            "x": 252,
+                            "y": 33
                           },
                           {
-                            "x": 36,
-                            "y": 24
+                            "y": 33
                           }
                         ]
                       },
@@ -4375,20 +4577,18 @@ const processImg = {
                           "boundingBox": {
                             "vertices": [
                               {
-                                "x": 36,
-                                "y": 6
+                                "y": 9
                               },
                               {
-                                "x": 228,
-                                "y": 7
+                                "x": 252,
+                                "y": 9
                               },
                               {
-                                "x": 228,
-                                "y": 25
+                                "x": 252,
+                                "y": 33
                               },
                               {
-                                "x": 36,
-                                "y": 24
+                                "y": 33
                               }
                             ]
                           },
@@ -4404,20 +4604,18 @@ const processImg = {
                               "boundingBox": {
                                 "vertices": [
                                   {
-                                    "x": 36,
-                                    "y": 6
+                                    "y": 9
                                   },
                                   {
-                                    "x": 81,
-                                    "y": 6
+                                    "x": 57,
+                                    "y": 9
                                   },
                                   {
-                                    "x": 81,
-                                    "y": 22
+                                    "x": 57,
+                                    "y": 30
                                   },
                                   {
-                                    "x": 36,
-                                    "y": 22
+                                    "y": 30
                                   }
                                 ]
                               },
@@ -4433,20 +4631,18 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 36,
-                                        "y": 6
+                                        "y": 9
                                       },
                                       {
-                                        "x": 50,
-                                        "y": 6
+                                        "x": 12,
+                                        "y": 9
                                       },
                                       {
-                                        "x": 50,
-                                        "y": 22
+                                        "x": 12,
+                                        "y": 30
                                       },
                                       {
-                                        "x": 36,
-                                        "y": 22
+                                        "y": 30
                                       }
                                     ]
                                   },
@@ -4463,20 +4659,20 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 51,
-                                        "y": 6
+                                        "x": 13,
+                                        "y": 9
                                       },
                                       {
-                                        "x": 54,
-                                        "y": 6
+                                        "x": 21,
+                                        "y": 9
                                       },
                                       {
-                                        "x": 54,
-                                        "y": 22
+                                        "x": 21,
+                                        "y": 30
                                       },
                                       {
-                                        "x": 51,
-                                        "y": 22
+                                        "x": 13,
+                                        "y": 30
                                       }
                                     ]
                                   },
@@ -4493,20 +4689,20 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 55,
-                                        "y": 6
+                                        "x": 22,
+                                        "y": 9
                                       },
                                       {
-                                        "x": 57,
-                                        "y": 6
+                                        "x": 26,
+                                        "y": 9
                                       },
                                       {
-                                        "x": 57,
-                                        "y": 22
+                                        "x": 26,
+                                        "y": 30
                                       },
                                       {
-                                        "x": 55,
-                                        "y": 22
+                                        "x": 22,
+                                        "y": 30
                                       }
                                     ]
                                   },
@@ -4523,20 +4719,20 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 58,
-                                        "y": 6
+                                        "x": 27,
+                                        "y": 9
                                       },
                                       {
-                                        "x": 64,
-                                        "y": 6
+                                        "x": 35,
+                                        "y": 9
                                       },
                                       {
-                                        "x": 64,
-                                        "y": 22
+                                        "x": 35,
+                                        "y": 30
                                       },
                                       {
-                                        "x": 58,
-                                        "y": 22
+                                        "x": 27,
+                                        "y": 30
                                       }
                                     ]
                                   },
@@ -4553,20 +4749,20 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 65,
-                                        "y": 6
+                                        "x": 36,
+                                        "y": 9
                                       },
                                       {
-                                        "x": 71,
-                                        "y": 6
+                                        "x": 45,
+                                        "y": 9
                                       },
                                       {
-                                        "x": 71,
-                                        "y": 22
+                                        "x": 45,
+                                        "y": 30
                                       },
                                       {
-                                        "x": 65,
-                                        "y": 22
+                                        "x": 36,
+                                        "y": 30
                                       }
                                     ]
                                   },
@@ -4583,20 +4779,20 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 72,
-                                        "y": 6
+                                        "x": 46,
+                                        "y": 9
                                       },
                                       {
-                                        "x": 78,
-                                        "y": 6
+                                        "x": 54,
+                                        "y": 9
                                       },
                                       {
-                                        "x": 78,
-                                        "y": 22
+                                        "x": 54,
+                                        "y": 30
                                       },
                                       {
-                                        "x": 72,
-                                        "y": 22
+                                        "x": 46,
+                                        "y": 30
                                       }
                                     ]
                                   },
@@ -4616,20 +4812,20 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 79,
-                                        "y": 6
+                                        "x": 55,
+                                        "y": 9
                                       },
                                       {
-                                        "x": 81,
-                                        "y": 6
+                                        "x": 57,
+                                        "y": 9
                                       },
                                       {
-                                        "x": 81,
-                                        "y": 22
+                                        "x": 57,
+                                        "y": 30
                                       },
                                       {
-                                        "x": 79,
-                                        "y": 22
+                                        "x": 55,
+                                        "y": 30
                                       }
                                     ]
                                   },
@@ -4648,20 +4844,20 @@ const processImg = {
                               "boundingBox": {
                                 "vertices": [
                                   {
-                                    "x": 88,
-                                    "y": 10
+                                    "x": 65,
+                                    "y": 12
                                   },
                                   {
-                                    "x": 117,
-                                    "y": 10
+                                    "x": 105,
+                                    "y": 12
                                   },
                                   {
-                                    "x": 117,
-                                    "y": 23
+                                    "x": 105,
+                                    "y": 31
                                   },
                                   {
-                                    "x": 88,
-                                    "y": 23
+                                    "x": 65,
+                                    "y": 31
                                   }
                                 ]
                               },
@@ -4677,20 +4873,20 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 88,
-                                        "y": 10
+                                        "x": 65,
+                                        "y": 13
                                       },
                                       {
-                                        "x": 90,
-                                        "y": 10
+                                        "x": 69,
+                                        "y": 13
                                       },
                                       {
-                                        "x": 90,
-                                        "y": 23
+                                        "x": 69,
+                                        "y": 31
                                       },
                                       {
-                                        "x": 88,
-                                        "y": 23
+                                        "x": 65,
+                                        "y": 31
                                       }
                                     ]
                                   },
@@ -4707,20 +4903,20 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 93,
-                                        "y": 10
+                                        "x": 71,
+                                        "y": 12
                                       },
                                       {
-                                        "x": 97,
-                                        "y": 10
+                                        "x": 78,
+                                        "y": 12
                                       },
                                       {
-                                        "x": 97,
-                                        "y": 21
+                                        "x": 78,
+                                        "y": 29
                                       },
                                       {
-                                        "x": 93,
-                                        "y": 21
+                                        "x": 71,
+                                        "y": 29
                                       }
                                     ]
                                   },
@@ -4737,20 +4933,20 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 100,
-                                        "y": 10
+                                        "x": 81,
+                                        "y": 12
                                       },
                                       {
-                                        "x": 105,
-                                        "y": 10
+                                        "x": 88,
+                                        "y": 12
                                       },
                                       {
-                                        "x": 105,
-                                        "y": 21
+                                        "x": 88,
+                                        "y": 29
                                       },
                                       {
-                                        "x": 100,
-                                        "y": 21
+                                        "x": 81,
+                                        "y": 29
                                       }
                                     ]
                                   },
@@ -4767,20 +4963,20 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 107,
-                                        "y": 10
+                                        "x": 91,
+                                        "y": 13
                                       },
                                       {
-                                        "x": 112,
-                                        "y": 10
+                                        "x": 98,
+                                        "y": 13
                                       },
                                       {
-                                        "x": 112,
-                                        "y": 22
+                                        "x": 98,
+                                        "y": 29
                                       },
                                       {
-                                        "x": 107,
-                                        "y": 22
+                                        "x": 91,
+                                        "y": 29
                                       }
                                     ]
                                   },
@@ -4800,20 +4996,20 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 115,
-                                        "y": 10
+                                        "x": 101,
+                                        "y": 12
                                       },
                                       {
-                                        "x": 117,
-                                        "y": 10
+                                        "x": 105,
+                                        "y": 12
                                       },
                                       {
-                                        "x": 117,
-                                        "y": 23
+                                        "x": 105,
+                                        "y": 31
                                       },
                                       {
-                                        "x": 115,
-                                        "y": 23
+                                        "x": 101,
+                                        "y": 31
                                       }
                                     ]
                                   },
@@ -4832,20 +5028,20 @@ const processImg = {
                               "boundingBox": {
                                 "vertices": [
                                   {
-                                    "x": 131,
-                                    "y": 9
+                                    "x": 123,
+                                    "y": 13
                                   },
                                   {
-                                    "x": 228,
-                                    "y": 9
+                                    "x": 252,
+                                    "y": 13
                                   },
                                   {
-                                    "x": 228,
-                                    "y": 25
+                                    "x": 252,
+                                    "y": 33
                                   },
                                   {
-                                    "x": 131,
-                                    "y": 25
+                                    "x": 123,
+                                    "y": 33
                                   }
                                 ]
                               },
@@ -4861,170 +5057,20 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 131,
-                                        "y": 9
+                                        "x": 123,
+                                        "y": 22
                                       },
                                       {
-                                        "x": 145,
-                                        "y": 9
+                                        "x": 127,
+                                        "y": 22
                                       },
                                       {
-                                        "x": 145,
-                                        "y": 24
+                                        "x": 127,
+                                        "y": 23
                                       },
                                       {
-                                        "x": 131,
-                                        "y": 24
-                                      }
-                                    ]
-                                  },
-                                  "text": "S"
-                                },
-                                {
-                                  "property": {
-                                    "detectedLanguages": [
-                                      {
-                                        "languageCode": "en"
-                                      }
-                                    ]
-                                  },
-                                  "boundingBox": {
-                                    "vertices": [
-                                      {
-                                        "x": 146,
-                                        "y": 9
-                                      },
-                                      {
-                                        "x": 152,
-                                        "y": 9
-                                      },
-                                      {
-                                        "x": 152,
-                                        "y": 24
-                                      },
-                                      {
-                                        "x": 146,
-                                        "y": 24
-                                      }
-                                    ]
-                                  },
-                                  "text": "q"
-                                },
-                                {
-                                  "property": {
-                                    "detectedLanguages": [
-                                      {
-                                        "languageCode": "en"
-                                      }
-                                    ]
-                                  },
-                                  "boundingBox": {
-                                    "vertices": [
-                                      {
-                                        "x": 153,
-                                        "y": 10
-                                      },
-                                      {
-                                        "x": 159,
-                                        "y": 10
-                                      },
-                                      {
-                                        "x": 159,
-                                        "y": 25
-                                      },
-                                      {
-                                        "x": 153,
-                                        "y": 25
-                                      }
-                                    ]
-                                  },
-                                  "text": "u"
-                                },
-                                {
-                                  "property": {
-                                    "detectedLanguages": [
-                                      {
-                                        "languageCode": "en"
-                                      }
-                                    ]
-                                  },
-                                  "boundingBox": {
-                                    "vertices": [
-                                      {
-                                        "x": 160,
-                                        "y": 10
-                                      },
-                                      {
-                                        "x": 166,
-                                        "y": 10
-                                      },
-                                      {
-                                        "x": 166,
-                                        "y": 25
-                                      },
-                                      {
-                                        "x": 160,
-                                        "y": 25
-                                      }
-                                    ]
-                                  },
-                                  "text": "a"
-                                },
-                                {
-                                  "property": {
-                                    "detectedLanguages": [
-                                      {
-                                        "languageCode": "en"
-                                      }
-                                    ]
-                                  },
-                                  "boundingBox": {
-                                    "vertices": [
-                                      {
-                                        "x": 167,
-                                        "y": 10
-                                      },
-                                      {
-                                        "x": 173,
-                                        "y": 10
-                                      },
-                                      {
-                                        "x": 173,
-                                        "y": 25
-                                      },
-                                      {
-                                        "x": 167,
-                                        "y": 25
-                                      }
-                                    ]
-                                  },
-                                  "text": "d"
-                                },
-                                {
-                                  "property": {
-                                    "detectedLanguages": [
-                                      {
-                                        "languageCode": "en"
-                                      }
-                                    ]
-                                  },
-                                  "boundingBox": {
-                                    "vertices": [
-                                      {
-                                        "x": 174,
-                                        "y": 10
-                                      },
-                                      {
-                                        "x": 183,
-                                        "y": 10
-                                      },
-                                      {
-                                        "x": 183,
-                                        "y": 25
-                                      },
-                                      {
-                                        "x": 174,
-                                        "y": 25
+                                        "x": 123,
+                                        "y": 23
                                       }
                                     ]
                                   },
@@ -5041,24 +5087,24 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 184,
-                                        "y": 10
+                                        "x": 135,
+                                        "y": 13
                                       },
                                       {
-                                        "x": 194,
-                                        "y": 10
+                                        "x": 142,
+                                        "y": 13
                                       },
                                       {
-                                        "x": 194,
-                                        "y": 25
+                                        "x": 142,
+                                        "y": 29
                                       },
                                       {
-                                        "x": 184,
-                                        "y": 25
+                                        "x": 135,
+                                        "y": 29
                                       }
                                     ]
                                   },
-                                  "text": "E"
+                                  "text": "S"
                                 },
                                 {
                                   "property": {
@@ -5071,24 +5117,24 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 195,
-                                        "y": 10
+                                        "x": 145,
+                                        "y": 19
                                       },
                                       {
-                                        "x": 197,
-                                        "y": 10
+                                        "x": 151,
+                                        "y": 19
                                       },
                                       {
-                                        "x": 197,
-                                        "y": 25
+                                        "x": 151,
+                                        "y": 33
                                       },
                                       {
-                                        "x": 195,
-                                        "y": 25
+                                        "x": 145,
+                                        "y": 33
                                       }
                                     ]
                                   },
-                                  "text": "r"
+                                  "text": "q"
                                 },
                                 {
                                   "property": {
@@ -5101,20 +5147,50 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 198,
-                                        "y": 10
+                                        "x": 154,
+                                        "y": 18
                                       },
                                       {
-                                        "x": 204,
-                                        "y": 10
+                                        "x": 160,
+                                        "y": 18
                                       },
                                       {
-                                        "x": 204,
-                                        "y": 25
+                                        "x": 160,
+                                        "y": 29
                                       },
                                       {
-                                        "x": 198,
-                                        "y": 25
+                                        "x": 154,
+                                        "y": 29
+                                      }
+                                    ]
+                                  },
+                                  "text": "u"
+                                },
+                                {
+                                  "property": {
+                                    "detectedLanguages": [
+                                      {
+                                        "languageCode": "en"
+                                      }
+                                    ]
+                                  },
+                                  "boundingBox": {
+                                    "vertices": [
+                                      {
+                                        "x": 163,
+                                        "y": 18
+                                      },
+                                      {
+                                        "x": 169,
+                                        "y": 18
+                                      },
+                                      {
+                                        "x": 169,
+                                        "y": 29
+                                      },
+                                      {
+                                        "x": 163,
+                                        "y": 29
                                       }
                                     ]
                                   },
@@ -5131,20 +5207,170 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 205,
-                                        "y": 10
+                                        "x": 172,
+                                        "y": 13
                                       },
                                       {
-                                        "x": 211,
-                                        "y": 10
+                                        "x": 178,
+                                        "y": 13
                                       },
                                       {
-                                        "x": 211,
-                                        "y": 25
+                                        "x": 178,
+                                        "y": 29
                                       },
                                       {
-                                        "x": 205,
-                                        "y": 25
+                                        "x": 172,
+                                        "y": 29
+                                      }
+                                    ]
+                                  },
+                                  "text": "d"
+                                },
+                                {
+                                  "property": {
+                                    "detectedLanguages": [
+                                      {
+                                        "languageCode": "en"
+                                      }
+                                    ]
+                                  },
+                                  "boundingBox": {
+                                    "vertices": [
+                                      {
+                                        "x": 185,
+                                        "y": 22
+                                      },
+                                      {
+                                        "x": 190,
+                                        "y": 22
+                                      },
+                                      {
+                                        "x": 190,
+                                        "y": 23
+                                      },
+                                      {
+                                        "x": 185,
+                                        "y": 23
+                                      }
+                                    ]
+                                  },
+                                  "text": "-"
+                                },
+                                {
+                                  "property": {
+                                    "detectedLanguages": [
+                                      {
+                                        "languageCode": "en"
+                                      }
+                                    ]
+                                  },
+                                  "boundingBox": {
+                                    "vertices": [
+                                      {
+                                        "x": 198,
+                                        "y": 13
+                                      },
+                                      {
+                                        "x": 204,
+                                        "y": 13
+                                      },
+                                      {
+                                        "x": 204,
+                                        "y": 29
+                                      },
+                                      {
+                                        "x": 198,
+                                        "y": 29
+                                      }
+                                    ]
+                                  },
+                                  "text": "E"
+                                },
+                                {
+                                  "property": {
+                                    "detectedLanguages": [
+                                      {
+                                        "languageCode": "en"
+                                      }
+                                    ]
+                                  },
+                                  "boundingBox": {
+                                    "vertices": [
+                                      {
+                                        "x": 207,
+                                        "y": 19
+                                      },
+                                      {
+                                        "x": 213,
+                                        "y": 19
+                                      },
+                                      {
+                                        "x": 213,
+                                        "y": 29
+                                      },
+                                      {
+                                        "x": 207,
+                                        "y": 29
+                                      }
+                                    ]
+                                  },
+                                  "text": "r"
+                                },
+                                {
+                                  "property": {
+                                    "detectedLanguages": [
+                                      {
+                                        "languageCode": "en"
+                                      }
+                                    ]
+                                  },
+                                  "boundingBox": {
+                                    "vertices": [
+                                      {
+                                        "x": 215,
+                                        "y": 18
+                                      },
+                                      {
+                                        "x": 221,
+                                        "y": 18
+                                      },
+                                      {
+                                        "x": 221,
+                                        "y": 29
+                                      },
+                                      {
+                                        "x": 215,
+                                        "y": 29
+                                      }
+                                    ]
+                                  },
+                                  "text": "a"
+                                },
+                                {
+                                  "property": {
+                                    "detectedLanguages": [
+                                      {
+                                        "languageCode": "en"
+                                      }
+                                    ]
+                                  },
+                                  "boundingBox": {
+                                    "vertices": [
+                                      {
+                                        "x": 224,
+                                        "y": 19
+                                      },
+                                      {
+                                        "x": 230,
+                                        "y": 19
+                                      },
+                                      {
+                                        "x": 230,
+                                        "y": 29
+                                      },
+                                      {
+                                        "x": 224,
+                                        "y": 29
                                       }
                                     ]
                                   },
@@ -5161,20 +5387,20 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 212,
-                                        "y": 10
+                                        "x": 233,
+                                        "y": 19
                                       },
                                       {
-                                        "x": 218,
-                                        "y": 10
+                                        "x": 239,
+                                        "y": 19
                                       },
                                       {
-                                        "x": 218,
-                                        "y": 25
+                                        "x": 239,
+                                        "y": 33
                                       },
                                       {
-                                        "x": 212,
-                                        "y": 25
+                                        "x": 233,
+                                        "y": 33
                                       }
                                     ]
                                   },
@@ -5191,20 +5417,20 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 219,
-                                        "y": 10
+                                        "x": 242,
+                                        "y": 19
                                       },
                                       {
-                                        "x": 222,
-                                        "y": 10
+                                        "x": 248,
+                                        "y": 19
                                       },
                                       {
-                                        "x": 222,
-                                        "y": 25
+                                        "x": 248,
+                                        "y": 29
                                       },
                                       {
-                                        "x": 219,
-                                        "y": 25
+                                        "x": 242,
+                                        "y": 29
                                       }
                                     ]
                                   },
@@ -5224,24 +5450,24 @@ const processImg = {
                                   "boundingBox": {
                                     "vertices": [
                                       {
-                                        "x": 223,
-                                        "y": 10
+                                        "x": 251,
+                                        "y": 13
                                       },
                                       {
-                                        "x": 228,
-                                        "y": 10
+                                        "x": 252,
+                                        "y": 13
                                       },
                                       {
-                                        "x": 228,
-                                        "y": 25
+                                        "x": 252,
+                                        "y": 29
                                       },
                                       {
-                                        "x": 223,
-                                        "y": 25
+                                        "x": 251,
+                                        "y": 29
                                       }
                                     ]
                                   },
-                                  "text": "!"
+                                  "text": "l"
                                 }
                               ]
                             }
@@ -5253,7 +5479,7 @@ const processImg = {
                   ]
                 }
               ],
-              "text": "Classic (TPP) Squad-Erange!\n"
+              "text": "Classic (TPP) -Squad-Erangel\n"
             }
           }
         ]
@@ -5454,7 +5680,7 @@ const processImg = {
         if (err) console.error(err)
 
 
-        return resolve({ ...successObj, message: "image processed successfully"})
+        // return resolve({ ...successObj, message: "image processed successfully"}) //=================>4
         const { analysedData3 } = await processImg.feedToAPI("./app/controllers/imageProcessing/KillsElement.jpg")
         let scoreElement = {
           item: "KillsElement",
