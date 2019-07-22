@@ -6,7 +6,7 @@ var = argv();
 img = imread(var{1});
 # imshow(img);
 # uint8 (new_matrix);
-x = roicolor(img, 0, 235);
+x = roicolor(img, 0, 245);
 # imshow(x);
 
 for a=1:size(x,1)
@@ -21,7 +21,7 @@ end
 
 #disp ("new_matrix after converting type is"), disp(typeinfo (new_matrix));
 
-#imshow(new_matrix);
+imshow(new_matrix);
 reqdRow = 0;
 temp = size(var, 1) - 1;
 for x = 2: temp
