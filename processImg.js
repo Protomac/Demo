@@ -1,5 +1,6 @@
 import { errorObj, successObj } from "../../../config/settings";
 import Async from "async";
+const vision = require('@google-cloud/vision');
 const exec = require("child_process").exec;
 const console = require("tracer").colorConsole();
 
@@ -12,7 +13,7 @@ const score = {
 const headerValues = ["Kills", "Damage", "Survived", "Survival Time", "Rating"]
 
 const processImg = {
-  //extract => IN: {row: {min, max}, column: {min, max}, saveAs: ""}
+  //Extracts and Saves ROI from image using octave (takes input in percentage)
   extractAndSave: (imgSaveData) => {
     const { filePath, saveAs, row, col } = imgSaveData
     return new Promise(resolve => {
@@ -25,10 +26,10 @@ const processImg = {
       })
     })
   },
-  feedToAPI: (filePath) => {
+  //Dummie FeedToAPI constains hard code responses
+  feedToAPI_Dummie: () => {
     return new Promise(resolve => {
       //https://cloud.google.com/vision/docs/ocr
-
       const data = {
         "responses": [
           {
@@ -3766,7 +3767,7 @@ const processImg = {
             }
           }
         ]
-      }      
+      }
       const damage = {
         "responses": [
           {
@@ -4192,7 +4193,7 @@ const processImg = {
             }
           }
         ]
-      }      
+      }
       const rating = {
         "responses": [
           {
@@ -4428,7 +4429,7 @@ const processImg = {
             }
           }
         ]
-      }      
+      }
       const mode = {
         "responses": [
           {
@@ -5484,8 +5485,22 @@ const processImg = {
           }
         ]
       }
-      
-
+      const result = {
+        faceAnnotations: [],
+        landmarkAnnotations: [],
+        logoAnnotations: [],
+        labelAnnotations: [],
+        textAnnotations: [],
+        localizedObjectAnnotations: [],
+        safeSearchAnnotation: null,
+        imagePropertiesAnnotation: null,
+        error: null,
+        cropHintsAnnotation: null,
+        fullTextAnnotation: null,
+        webDetection: null,
+        productSearchResults: null,
+        context: null
+      }
       const value = (data.responses[0].textAnnotations || [0, 0])
       const value2 = (data2.responses[0].textAnnotations || [0, 0])
       const value3 = (kills.responses[0].textAnnotations || [0, 0])
@@ -5504,13 +5519,29 @@ const processImg = {
       })
     })
   },
+  //Give data to API and gets response
+  feedToAPI: (filePath) => {
+    return new Promise(async (resolve) => {
+      //https://cloud.google.com/vision/docs/ocr
+      // Creates a client
+      const client = new vision.ImageAnnotatorClient();
+      const fileName = filePath;
+      // Performs text detection on the local file
+      const [result] = await client.textDetection(fileName);
+      const detections = ((result.textAnnotations.length != 0) ? result.textAnnotations : [0, 0]);
+      console.log("apiRes: ", result);
+      // detections.forEach(text => console.log(text));
+      const value = (detections)
+      resolve(value)
+    })
+  },
+  //extractHeaderPosition from API response
   extractHeaderPos: (apiRes) => {
     return new Promise(resolve => {
       apiRes.forEach((item, key) => {
         //ignores the first iteration
         if (key == 0)
           return;
-        // console.log(item, key)
         //only save/push those fields that matches Kills, Damage, Survived, Survival, Survival Time
         if (headerValues.indexOf(item.description) > -1) {
           const data = {
@@ -5533,7 +5564,6 @@ const processImg = {
         //ignores the first iteration
         if (key == 0)
           return;
-        // console.log(item, key)
         if (item.description != ('Rating' || "MVP")) {
           const data = {
             elementVal: item.description,
@@ -5554,7 +5584,6 @@ const processImg = {
         //ignores the first iteration
         if (key == 0)
           return;
-        // console.log(item, key)
         if (
           /Classic/.test(item.description)
           ||
@@ -5583,10 +5612,8 @@ const processImg = {
       }, (error) => {
         if (error)
           return resolve({ ...errorObj, error: err })
-        console.log(scoreList)
         exec(`octave ${__dirname}\\reqdRow.m ${filePath} ${scoreList}`, (err, stdout, stderr) => {
           if (err || stderr) return resolve({ ...errorObj, error: { err, stderr } })
-          console.log(stdout)
           return resolve({ ...successObj, returned: parseInt(stdout, 10) })
         })
       })
@@ -5600,6 +5627,7 @@ const processImg = {
     score.colElements = []
     score.reqdScore = []
     return new Promise(async (resolve) => {
+      console.log("still running")
       let imgSaveData = {
         filePath: screenShotPath,
         saveAs: `${__dirname}\\gameMode.jpg`,
@@ -5607,19 +5635,16 @@ const processImg = {
         col: { min: 78, max: 99 },
       }
       await processImg.extractAndSave(imgSaveData)
-      // return resolve({ ...successObj, message: "image processed successfully"})  //===============>1
-      const { analysedData7 } = await processImg.feedToAPI("./app/controllers/imageProcessing/gameMode.jpg")
-      // console.log(analysedData7)
-      await processImg.extractGameMode(analysedData7)
+      let analysedData = await processImg.feedToAPI("./app/controllers/imageProcessing/gameMode.jpg")
+      await processImg.extractGameMode(analysedData)
       if (score.gameMode.length == 0) {
         return resolve(
           {
             ...errorObj,
-            message: "coudn't process image. Probably: wrong game mode selected",
+            message: "image processing unsuccessful. Probably: wrong game mode selected",
             data: { ...score }
           })
       }
-
       imgSaveData = {
         filePath: screenShotPath,
         saveAs: `${__dirname}\\tableHeader.jpg`,
@@ -5627,19 +5652,22 @@ const processImg = {
         col: { min: 14, max: 100 },
       }
       let { data, error } = await processImg.extractAndSave(imgSaveData)
-      // return resolve({ ...successObj, message: "image processed successfully"})  //===============>2
       data = data.split(" ")
       const colSize = (data.pop())
       const rowSize = (data.pop())
-
-      let { analysedData } = await processImg.feedToAPI("./app/controllers/imageProcessing/tableHeader.jpg")
+      analysedData = await processImg.feedToAPI("./app/controllers/imageProcessing/tableHeader.jpg")
       await processImg.extractHeaderPos(analysedData)
-      // const index = score.tableHeader.findIndex((element) => { return element.elementVal == ("Survived" || "Survival Time") });
+      if (score.tableHeader.length == 0) {
+        return resolve(
+          {
+            ...errorObj,
+            message: "image processing unsuccessful. Probably: due to table Header",
+            data: { ...score }
+          })
+      }
       const index = score.tableHeader.findIndex((element) => { return element.elementVal == ("Rating") });
-      // console.log(index, score.tableHeader[index].elementVal, score.tableHeader[index].position)
       const { topLeft } = score.tableHeader[index].position
       const { bottomRight } = score.tableHeader[index].position
-      // console.log(topLeft, bottomRight)
       imgSaveData = {
         filePath: screenShotPath,
         saveAs: `${__dirname}\\savedColumn.jpg`,
@@ -5647,11 +5675,17 @@ const processImg = {
         col: { min: Math.floor((topLeft.x / colSize) * 100) + 14, max: Math.floor((bottomRight.x / colSize) * 100) + 14 },
       }
       await processImg.extractAndSave(imgSaveData)
-      const { analysedData2 } = await processImg.feedToAPI("./app/controllers/imageProcessing/savedColumn.jpg")
-      await processImg.extractScorePos(analysedData2)
+      analysedData = await processImg.feedToAPI("./app/controllers/imageProcessing/savedColumn.jpg")
+      await processImg.extractScorePos(analysedData)
+      if (score.colElements.length == 0) {
+        return resolve(
+          {
+            ...errorObj,
+            message: "image processing unsuccessful. Probably: due to saved column",
+            data: { ...score }
+          })
+      }
       const { returned } = await processImg.reqdRow(`${__dirname}\\savedColumn.jpg`)
-      // console.log(typeof returned, returned)
-      // return resolve({ ...successObj, message: "image processed successfully"}) //==============>3
       Async.each(score.tableHeader, async (item, next) => {
         const imgSaveData = {
           filePath: screenShotPath,
@@ -5668,51 +5702,21 @@ const processImg = {
         await processImg.extractAndSave(imgSaveData)
         // ========================================Important========================================
         // De-Comment when feedToAPI is complete
-        // const { analysedData } = await processImg.feedToAPI("./app/controllers/imageProcessing/savedColumn.jpg")
-        // const scoreElement = {
-        //   item: item.elementVal,
-        //   score: (isNaN(parseFloat(analysedData[1].description))) ? 0: parseFloat(analysedData[1].description)
-        // }
-        // score.reqdScore.push(scoreElement)
+        analysedData = await processImg.feedToAPI(`${__dirname}\\${item.elementVal}Element.jpg`)
+        const scoreElement = {
+          item: item.elementVal,
+          score: (isNaN(parseFloat(analysedData[1].description))) ? 0: parseFloat(analysedData[1].description)
+        }
+        score.reqdScore.push(scoreElement)
         // =========================================================================================
         next()
       }, async (err) => {
-        if (err) console.error(err)
-
-
-        // return resolve({ ...successObj, message: "image processed successfully"}) //=================>4
-        const { analysedData3 } = await processImg.feedToAPI("./app/controllers/imageProcessing/KillsElement.jpg")
-        let scoreElement = {
-          item: "KillsElement",
-          score: (isNaN(parseFloat(analysedData3[1].description))) ? 0 : parseFloat(analysedData3[1].description)
-        }
-        score.reqdScore.push(scoreElement)
-
-        const { analysedData4 } = await processImg.feedToAPI("./app/controllers/imageProcessing/DamageElement.jpg")
-        scoreElement = {
-          item: "DamageElement",
-          score: (isNaN(parseFloat(analysedData4[1].description))) ? 0 : parseFloat(analysedData4[1].description)
-        }
-        score.reqdScore.push(scoreElement)
-
-        const { analysedData5 } = await processImg.feedToAPI("./app/controllers/imageProcessing/SurvivedElement.jpg")
-        scoreElement = {
-          item: "SurvivedElement",
-          score: (isNaN(parseFloat(analysedData5[1].description))) ? 0 : parseFloat(analysedData5[1].description)
-        }
-        score.reqdScore.push(scoreElement)
-
-        const { analysedData6 } = await processImg.feedToAPI("./app/controllers/imageProcessing/RatingElement.jpg")
-        scoreElement = {
-          item: "RatingElement",
-          score: (isNaN(parseFloat(analysedData6[1].description))) ? 0 : parseFloat(analysedData6[1].description)
-        }
-        score.reqdScore.push(scoreElement)
+        if (err) {console.error(err)
+          return resolve({ ...errorObj, message: "image processing unsuccessful", data: { ...score } })}
         return resolve({ ...successObj, message: "image processed successfully", data: { ...score } })
       })
     })
   },
 }
-// processImg.start("./app/controllers/imageProcessing/aman.jpeg")
 
 export default processImg;

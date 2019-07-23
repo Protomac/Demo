@@ -1,0 +1,2 @@
+powershell command for google credentials json file
+$env:GOOGLE_APPLICATION_CREDENTIALS="./app/controllers/imageProcessing/gladiatorial-dummie-f4c9e3ab2b4a.json"
